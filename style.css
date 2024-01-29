@@ -63,7 +63,7 @@ nav {
 }
 
 .slider {
-  background: url(https://images.pexels.com/photos/7078622/pexels-photo-7078622.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background: url(/img/bg5.jpg);
   /* background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"); */
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   overflow: hidden;
@@ -117,7 +117,7 @@ nav {
   font-size: 60px;
   font-weight: 900;
   text-align: center;
-  color: rgb(209, 76, 200);
+  color: rgb(11, 123, 52);
   z-index: 1;
 }
 
@@ -140,8 +140,8 @@ nav {
   font-size: 30px;
   font-weight: 900;
   color: white;
-  border: 1px solid gray;
-  background-color: rgb(145, 24, 156);
+  border: 1px solid rgb(177, 149, 149);
+  background-color: rgb(3, 54, 27);
   z-index: 1;
   cursor: pointer;
 }
@@ -152,7 +152,7 @@ nav {
 }
 
 .sliderItem:nth-child(1) .sliderBg {
-  background-color: #83e2a4;
+  background-color: #cfe283;
 }
 .sliderItem:nth-child(2) .sliderBg {
   background-color: rebeccapurple;
