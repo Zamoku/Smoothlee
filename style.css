@@ -63,7 +63,7 @@ nav {
 }
 
 .slider {
-  background: url(/img/bg5.jpg);
+  background: url(https://img.freepik.com/free-photo/beige-brush-paint-textured-background_53876-123057.jpg?w=1800&t=st=1706540400~exp=1706541000~hmac=b9f8b6bdb31d9182db4ce797ea6913d6779bd82c9d2026a7c0dd74692165965c);
   /* background: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"); */
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   overflow: hidden;
@@ -98,16 +98,16 @@ nav {
   width: 20rem;
 }
 #jordan{
-  width:50rem;
+  width:30rem;
   transform: rotate(20deg);
 }
 #thirds{
-  width: 50rem;
+  width: 25rem;
   transform: rotate(20deg);
   /* filter: invert(100%); */
 }
 #crater{
-  width: 50rem;
+  width: 25rem;
 }
 
 .sliderTitle {
@@ -319,7 +319,7 @@ label {
 }
 
 .productTitle {
-  font-size: 75px;
+  font-size: 6px;
   font-weight: 900;
 }
 
