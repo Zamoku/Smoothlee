@@ -216,17 +216,17 @@ nav {
 
 .product {
   height: 100vh;
-  background-color: rgb(107, 101, 101);
-  position: relative;
+  background-color:rgb(236, 245, 235);
+  position:relative;
   clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .payment {
-  width: 500px;
-  height: 500px;
+  width: 1000px;
+  height: 600px;
   background-color: white;
   position: absolute;
-  top: 0;
+  top: 250;
   bottom: 0;
   left: 0;
   right: 0;
@@ -306,26 +306,30 @@ label {
 }
 
 .productImg {
-  width: 50%;
-  margin-top: 6rem;
+  width:70rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  height: 100vh;
+  position:relative;
+  /* clip-path: polygon(0 0%, 100% 0, 100% 100%, 0% 100%); */
 }
 
 .productDetails {
   position: absolute;
   top: 10%;
-  right: 0;
-  width: 40%;
+  left: 60px; 
+  width: 50%;
   padding: 50px;
 }
 
 .productTitle {
-  font-size: 6px;
+  font-size: 20px;
   font-weight: 900;
 }
 
 .productDesc {
   font-style: 24px;
-  color: rgb(241, 234, 234);
+  color: rgb(14, 13, 13);
 }
 
 .colors,
@@ -356,15 +360,37 @@ label {
 }
 
 .productButton {
-  float: right;
-  padding: 10px 20px;
-  background-color: black;
+  float: left; 
+  padding: 15px 25px;
+  margin-left: 20px; 
+  background-color: rgb(198, 131, 13);
   color: white;
   font-weight: 600;
   cursor: pointer;
+  border-radius: 12px;
 }
 
+.prefButton {
+  float: left; 
+  padding: 15px 25px;
+  background-color: rgb(2, 173, 93);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+#non_subcribe_email , #subcribe_email {
+  display:inline-block;
+  /* additional code */
+  }
+
 .productButton:hover {
+  background-color: white;
+  color: black;
+}
+
+.prefButton:hover {
   background-color: white;
   color: black;
 }

@@ -80,13 +80,13 @@ const products = [
   },
 ];
 
-let choosenProduct = products[0];
+// let choosenProduct = products[0];
 
-const currentProductImg = document.querySelector(".productImg");
-const currentProductTitle = document.querySelector(".productTitle");
-const currentProductPrice = document.querySelector(".productPrice");
-const currentProductColors = document.querySelectorAll(".color");
-const currentProductSizes = document.querySelectorAll(".size");
+// const currentProductImg = document.querySelector(".productImg");
+// const currentProductTitle = document.querySelector(".productTitle");
+// const currentProductPrice = document.querySelector(".productPrice");
+// const currentProductColors = document.querySelectorAll(".color");
+// const currentProductSizes = document.querySelectorAll(".size");
 
 menuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
@@ -97,9 +97,9 @@ menuItems.forEach((item, index) => {
     choosenProduct = products[index];
 
     //change texts of currentProduct
-    currentProductTitle.textContent = choosenProduct.title;
-    currentProductPrice.textContent = "$" + choosenProduct.price;
-    currentProductImg.src = choosenProduct.colors[0].img;
+    // currentProductTitle.textContent = choosenProduct.title;
+    // currentProductPrice.textContent = "$" + choosenProduct.price;
+    // currentProductImg.src = choosenProduct.colors[0].img;
 
     //assing new colors
     currentProductColors.forEach((color, index) => {
@@ -125,11 +125,11 @@ currentProductSizes.forEach((size, index) => {
   });
 });
 
-const productButton = document.querySelector(".productButton");
+const buyButton = document.querySelector(".buyButton");
 const payment = document.querySelector(".payment");
 const close = document.querySelector(".close");
 
-productButton.addEventListener("click", () => {
+buyButton.addEventListener("click", () => {
   payment.style.display = "flex";
 });
 
