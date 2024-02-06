@@ -370,7 +370,7 @@ label {
   border-radius: 12px;
 }
 
-.pref_button {
+.prefButton {
   float: left; 
   padding: 15px 25px;
   background-color: rgb(2, 173, 93);
@@ -380,10 +380,9 @@ label {
   border-radius: 12px;
 }
 
-#non_subcribe_email , #subcribe_email {
+/* #non_subcribe_email , #subcribe_email {
   display:inline-block;
-  /* additional code */
-  }
+  } */
 
 .productButton:hover {
   background-color: white;
