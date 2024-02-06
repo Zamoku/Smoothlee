@@ -102,28 +102,28 @@ menuItems.forEach((item, index) => {
     // currentProductImg.src = choosenProduct.colors[0].img;
 
     //assing new colors
-    currentProductColors.forEach((color, index) => {
-      color.style.backgroundColor = choosenProduct.colors[index].code;
-    });
+    // currentProductColors.forEach((color, index) => {
+    //   color.style.backgroundColor = choosenProduct.colors[index].code;
+    // });
   });
 });
 
-currentProductColors.forEach((color, index) => {
-  color.addEventListener("click", () => {
-    currentProductImg.src = choosenProduct.colors[index].img;
-  });
-});
+// currentProductColors.forEach((color, index) => {
+//   color.addEventListener("click", () => {
+//     currentProductImg.src = choosenProduct.colors[index].img;
+//   });
+// });
 
-currentProductSizes.forEach((size, index) => {
-  size.addEventListener("click", () => {
-    currentProductSizes.forEach((size) => {
-      size.style.backgroundColor = "white";
-      size.style.color = "black";
-    });
-    size.style.backgroundColor = "black";
-    size.style.color = "white";
-  });
-});
+// currentProductSizes.forEach((size, index) => {
+//   size.addEventListener("click", () => {
+//     currentProductSizes.forEach((size) => {
+//       size.style.backgroundColor = "white";
+//       size.style.color = "black";
+//     });
+//     size.style.backgroundColor = "black";
+//     size.style.color = "white";
+//   });
+// });
 
 const buyButton = document.querySelector(".buyButton");
 const payment = document.querySelector(".payment");
